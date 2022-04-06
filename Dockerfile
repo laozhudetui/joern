@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.15.4
 
 # dependencies
 RUN apk update && apk upgrade && apk add --no-cache openjdk8-jre-base python3 git curl gnupg bash nss ncurses
